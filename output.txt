@@ -1,0 +1,151 @@
+************************************************
+*          Setting up sample data              *
+************************************************
+
+Generating merchant keys... 1  2  Done.
+Generating customer keys... 1  2  3  4  5  Done.
+Generating miner key... Done.
+Generating sample transactions:
+     01: Merch#1 / Cust#1  03/11/2015  $83.61
+     02: Merch#2 / Cust#1  03/02/2015  $3.47
+     03: Merch#2 / Cust#4  02/23/2018  $94.07
+     04: Merch#2 / Cust#1  04/06/2018  $25.71
+     05: Merch#2 / Cust#2  07/04/2018  $3.89
+     06: Merch#1 / Cust#3  08/28/2015  $23.23
+     07: Merch#2 / Cust#5  04/21/2015  $73.90
+     08: Merch#1 / Cust#4  10/22/2016  $46.17
+     09: Merch#2 / Cust#5  10/15/2016  $43.55
+     10: Merch#1 / Cust#3  06/15/2018  $93.22
+     11: Merch#2 / Cust#3  09/01/2017  $71.72
+     12: Merch#1 / Cust#1  04/18/2018  $61.69
+     13: Merch#2 / Cust#2  07/12/2018  $16.48
+     14: Merch#1 / Cust#3  02/23/2018  $11.66
+     15: Merch#1 / Cust#2  05/20/2017  $10.43
+     16: Merch#2 / Cust#4  02/06/2016  $28.51
+     17: Merch#1 / Cust#4  06/16/2015  $89.00
+     18: Merch#2 / Cust#2  04/10/2018  $16.58
+     19: Merch#1 / Cust#2  06/04/2016  $97.87
+     20: Merch#1 / Cust#3  11/04/2018  $21.38
+     21: Merch#2 / Cust#5  04/06/2015  $83.68
+     22: Merch#2 / Cust#4  01/28/2018  $97.41
+     23: Merch#2 / Cust#1  03/15/2017  $98.50
+     24: Merch#2 / Cust#3  09/08/2016  $76.34
+     25: Merch#1 / Cust#2  10/10/2017  $21.14
+Done.
+
+
+************************************************
+*           Generating blockchain              *
+************************************************
+
+Creating empty blockchain... Done.
+Adding generated transactions... Done.
+Verifying integrity of generated blockchain... blockchain is valid.
+
+************************************************
+*             Testing blockchain               *
+************************************************
+
+Unaltered summary:
+Num  Customer Public Key  Merchant Public Key  Transaction   Transaction
+          Excerpt              Excerpt             Date         Amount  
+===  ===================  ===================  ============  ===========
+ 01   abg+vJeNvopEsTg9m    U8ZyGbDlM6a4xe1l5    03/11/2015     $83.61
+ 02   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/02/2015     $3.47
+ 03   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/23/2018     $94.07
+ 04   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    04/06/2018     $25.71
+ 05   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/04/2018     $3.89
+ 06   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    08/28/2015     $23.23
+ 07   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/21/2015     $73.90
+ 08   B7A9sQAAKpjCkN2vz    U8ZyGbDlM6a4xe1l5    10/22/2016     $46.17
+ 09   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    10/15/2016     $43.55
+ 10   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    06/15/2018     $93.22
+ 11   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/01/2017     $71.72
+ 12   abg+vJeNvopEsTg9m    U8ZyGbDlM6a4xe1l5    04/18/2018     $61.69
+ 13   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/12/2018     $16.48
+ 14   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    02/23/2018     $11.66
+ 15   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    05/20/2017     $10.43
+ 16   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/06/2016     $28.51
+ 17   B7A9sQAAKpjCkN2vz    U8ZyGbDlM6a4xe1l5    06/16/2015     $89.00
+ 18   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    04/10/2018     $16.58
+ 19   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    06/04/2016     $97.87
+ 20   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    11/04/2018     $21.38
+ 21   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/06/2015     $83.68
+ 22   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    01/28/2018     $97.41
+ 23   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/15/2017     $98.50
+ 24   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/08/2016     $76.34
+ 25   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    10/10/2017     $21.14
+
+Changing a transaction amount in block #10 (incrementing by $10)... Done.
+
+Altered summary:
+Num  Customer Public Key  Merchant Public Key  Transaction   Transaction
+          Excerpt              Excerpt             Date         Amount  
+===  ===================  ===================  ============  ===========
+ 01   abg+vJeNvopEsTg9m    U8ZyGbDlM6a4xe1l5    03/11/2015     $83.61
+ 02   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/02/2015     $3.47
+ 03   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/23/2018     $94.07
+ 04   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    04/06/2018     $25.71
+ 05   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/04/2018     $3.89
+ 06   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    08/28/2015     $23.23
+ 07   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/21/2015     $73.90
+ 08   B7A9sQAAKpjCkN2vz    U8ZyGbDlM6a4xe1l5    10/22/2016     $46.17
+ 09   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    10/15/2016     $43.55
+ 10   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    06/15/2018     $103.22
+ 11   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/01/2017     $71.72
+ 12   abg+vJeNvopEsTg9m    U8ZyGbDlM6a4xe1l5    04/18/2018     $61.69
+ 13   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/12/2018     $16.48
+ 14   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    02/23/2018     $11.66
+ 15   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    05/20/2017     $10.43
+ 16   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/06/2016     $28.51
+ 17   B7A9sQAAKpjCkN2vz    U8ZyGbDlM6a4xe1l5    06/16/2015     $89.00
+ 18   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    04/10/2018     $16.58
+ 19   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    06/04/2016     $97.87
+ 20   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    11/04/2018     $21.38
+ 21   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/06/2015     $83.68
+ 22   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    01/28/2018     $97.41
+ 23   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/15/2017     $98.50
+ 24   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/08/2016     $76.34
+ 25   lbUCHPu/jhmNE2PMx    U8ZyGbDlM6a4xe1l5    10/10/2017     $21.14
+
+Now running the verification procedure again...
+blockchain is INVALID.
+!!! BLOCK VERIFICATION FAILURE (block #10)
+!!! ==>TRANSACTION VERIFICATION FAILURE
+!!! ====>SIGNATURE VERIFICATION (against customer data) FAILED for transaction
+
+Demonstrating how to search for transactions by public key:
+
+All transactions by Customer #3:
+
+Num  Customer Public Key  Merchant Public Key  Transaction   Transaction
+          Excerpt              Excerpt             Date         Amount  
+===  ===================  ===================  ============  ===========
+ 06   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    08/28/2015     $23.23
+ 10   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    06/15/2018     $103.22
+ 11   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/01/2017     $71.72
+ 14   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    02/23/2018     $11.66
+ 20   AEAPo1aisVXA3G7pR    U8ZyGbDlM6a4xe1l5    11/04/2018     $21.38
+ 24   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/08/2016     $76.34
+
+All transactions by Merchant #2:
+
+Num  Customer Public Key  Merchant Public Key  Transaction   Transaction
+          Excerpt              Excerpt             Date         Amount  
+===  ===================  ===================  ============  ===========
+ 02   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/02/2015     $3.47
+ 03   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/23/2018     $94.07
+ 04   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    04/06/2018     $25.71
+ 05   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/04/2018     $3.89
+ 07   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/21/2015     $73.90
+ 09   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    10/15/2016     $43.55
+ 11   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/01/2017     $71.72
+ 13   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    07/12/2018     $16.48
+ 16   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    02/06/2016     $28.51
+ 18   lbUCHPu/jhmNE2PMx    H9AJ7TcytjidIU0hE    04/10/2018     $16.58
+ 21   I9ZjgOvsVq2eaAyEG    H9AJ7TcytjidIU0hE    04/06/2015     $83.68
+ 22   B7A9sQAAKpjCkN2vz    H9AJ7TcytjidIU0hE    01/28/2018     $97.41
+ 23   abg+vJeNvopEsTg9m    H9AJ7TcytjidIU0hE    03/15/2017     $98.50
+ 24   AEAPo1aisVXA3G7pR    H9AJ7TcytjidIU0hE    09/08/2016     $76.34
+
+Demonstration complete.
